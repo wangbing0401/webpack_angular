@@ -46,7 +46,11 @@ module.exports = {
 
     //自动启动浏览器
     plugins: [
-        new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+        new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
+        })
     ]
 };
 
