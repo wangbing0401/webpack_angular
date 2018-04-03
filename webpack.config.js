@@ -40,7 +40,8 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 options:{
-                    presets:['es2015']
+                    presets:['es2015'],
+                    plugins: ["transform-runtime"]
                 },
                 exclude: /node_modules/
             }

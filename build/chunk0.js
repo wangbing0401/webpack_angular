@@ -1,2 +1,0 @@
-webpackJsonp([0],{11:function(o,n,l){const e=l(0);e.module("loginModule",[]),e.module("loginModule").controller("loginController",["$scope",function(o){o.name="wangbing"}])}});
-//# sourceMappingURL=chunk0.js.map?0f6149568090ab3d6f27

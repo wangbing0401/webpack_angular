@@ -1,4 +1,0 @@
-<div>
-    <hello-world></hello-world>
-    {{name}}
-</div>

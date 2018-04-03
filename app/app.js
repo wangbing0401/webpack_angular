@@ -9,8 +9,9 @@ require('./js/angular/ocLazyLoad.min');
 const routers = require('./ui-router');
 const servers = require('./servers');
 const config = require('./config');
+const components = require('./components')
 //定义一个angular模块
-var ngModule = angular.module('app',['oc.lazyLoad', 'routers', 'servers', 'config']);
+var ngModule = angular.module('app',['oc.lazyLoad', 'routers', 'servers', 'config', 'components']);
 
 //引入指令文件
-require('./helloWorld/helloWorld.js')(ngModule);
+// require('./helloWorld/helloWorld.js')(ngModule);
